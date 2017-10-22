@@ -1,0 +1,183 @@
+#ex1Slider .slider-selectio {
+    cursor: pointer;
+}
+#footer{
+    margin-bottom:0px;margin-left:0px;margin-right:0px;clear:both;
+}
+footer {
+    font-size: 12px;
+    background-color: #E4E4E4 ;
+   width: 100%;
+}
+
+#footer-icons li  {
+    display: inline;
+    text-align: right;
+    list-style: none;
+    padding: 5px;
+}
+#myName{
+    margin-bottom: 10px;
+}
+#sort{
+    margin-bottom: 25px;
+}
+#tovar-grid{
+   margin-top: 30px;
+}
+.old-price{
+    font-size: 12px;
+    color: darkgray;
+}
+.description{
+    text-decoration: underline;
+}
+#border-test{
+    border: 1px solid black;
+}
+.img_fancy{
+    width: 100px;
+    margin-bottom: 3px;
+}
+.test_underline{
+    text-decoration: underline;
+}
+#map {
+     width: 100%;
+     height: 400px;
+     background: url("../img/map.jpg")
+ }
+.contacts_icons{
+    color: forestgreen;
+}
+.footer_text{
+    color: lightgray;
+}
+.btn-success {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5bb75b;
+    *background-color: #51a351;
+    background-image: -moz-linear-gradient(top, #62c462, #51a351);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+    background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image: -o-linear-gradient(top, #62c462, #51a351);
+    background-image: linear-gradient(to bottom, #62c462, #51a351);
+    background-repeat: repeat-x;
+    border-color: #51a351 #51a351 #387038;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    color: #ffffff;
+    background-color: #51a351;
+    *background-color: #499249;
+}
+
+.btn-success:active,
+.btn-success.active {
+    background-color: #408140 \9;
+}
+.white{
+    color: white;
+    background-color: whitesmoke;
+}
+.red{
+    color: red;
+}
+#contacts-list{
+    margin-top: 100px;
+}
+#logo{
+    float: left;
+    margin-top: -10px;
+}
+.navbar-inverse{
+    width: 100%;
+}
+#popup_toggle{
+    cursor: pointer;
+}
+.slider-text{
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 25, 0.8)
+}
+.img-circleblock{
+z-index: 1;
+position: relative;
+}
+#popup_toggle{
+z-index: 999;
+}
+#tickets{
+    box-sizing: content-box;
+    padding: 20px;
+    background-color: rgba(0, 0, 25, 0.7);
+    margin-bottom: 20px;
+}
+
+#tickets input, #tickets select{
+    padding: 6px 10px 6px 15px;
+    height: 37px;
+    display: inline-block;
+    margin: 1px;
+}
+.whence, .where{
+    width: 315px;
+}
+.data, #tickets select{
+    width: 150px;
+}
+#tickets button{
+    background-color: #5EBB5E;
+    color: white;
+    height: 37px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 1px;
+    width: 180px;
+}
+@media (min-width: 768px) and ( max-width: 1119px)  {
+.whence, .where{
+    width: 48.5%;
+}
+.date, #tickets select, #tickets button{
+    width: 32%;
+}
+}
+@media (min-width: 481px) and ( max-width: 767px)  {
+.whence, .where{
+    width: 100%;
+}
+.date, #tickets select, #tickets button{
+    width: 31%;
+}
+#tickets button{
+    width: 33%;
+}
+}
+@media (min-width: 0px) and ( max-width: 480px)  {
+.whence, .where{
+    width: 100%;
+}
+.date, #tickets select, #tickets button{
+    width: 100%;
+}
+#tickets button{
+    width: 45%;
+    font-size: 13px;
+}
+}
+
+
+

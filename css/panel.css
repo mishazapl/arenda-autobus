@@ -1,0 +1,45 @@
+#wheres, #wherever, #data, #person, #name, #number, #delete {
+    cursor: pointer;
+}
+
+#wheres:hover, #wherever:hover, #data:hover, #person:hover, #name:hover, #number:hover, #delete:hover  {
+    text-decoration: underline;
+    color: #ff493d;
+}
+
+#cityForm {
+    text-align: center;
+}
+
+.changeCity {
+    text-align: center;
+}
+
+.infoPanel {
+	border: 2px solid #c2c2d6;
+	width: 100%;
+	min-height: 200px;
+	padding-top: 50px;
+	margin-top: 20px;
+	display: block;
+}
+
+#idZ {
+	font-size: 2em;
+	padding-left: 50px;
+}
+
+#idZN {
+	font-size: 2.5em;
+}
+
+#idT {
+	font-size: 2.5em;
+	padding-left: 20px;
+}
+
+#idTT {
+	position: relative;
+	left: 48px;
+	margin-right: 55px;
+}
